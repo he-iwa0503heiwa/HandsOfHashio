@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7245B71E3B5C48009B1953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7245B61E3B5C48009B1953 /* AppDelegate.swift */; };
+		AC7245B91E3B5C48009B1953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7245B81E3B5C48009B1953 /* ViewController.swift */; };
+		AC7245BC1E3B5C48009B1953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7245BA1E3B5C48009B1953 /* Main.storyboard */; };
+		AC7245BE1E3B5C48009B1953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7245BD1E3B5C48009B1953 /* Assets.xcassets */; };
+		AC7245C11E3B5C48009B1953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7245BF1E3B5C48009B1953 /* LaunchScreen.storyboard */; };
+		AC7245CC1E3B5C48009B1953 /* HandsOfHashioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7245CB1E3B5C48009B1953 /* HandsOfHashioTests.swift */; };
+		AC7245D71E3B5C48009B1953 /* HandsOfHashioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7245D61E3B5C48009B1953 /* HandsOfHashioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC7245C81E3B5C48009B1953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7245AB1E3B5C48009B1953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7245B21E3B5C48009B1953;
+			remoteInfo = HandsOfHashio;
+		};
+		AC7245D31E3B5C48009B1953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7245AB1E3B5C48009B1953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7245B21E3B5C48009B1953;
+			remoteInfo = HandsOfHashio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC7245B31E3B5C48009B1953 /* HandsOfHashio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandsOfHashio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7245B61E3B5C48009B1953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC7245B81E3B5C48009B1953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC7245BB1E3B5C48009B1953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC7245BD1E3B5C48009B1953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7245C01E3B5C48009B1953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC7245C21E3B5C48009B1953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7245C71E3B5C48009B1953 /* HandsOfHashioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsOfHashioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7245CB1E3B5C48009B1953 /* HandsOfHashioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsOfHashioTests.swift; sourceTree = "<group>"; };
+		AC7245CD1E3B5C48009B1953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7245D21E3B5C48009B1953 /* HandsOfHashioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsOfHashioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7245D61E3B5C48009B1953 /* HandsOfHashioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsOfHashioUITests.swift; sourceTree = "<group>"; };
+		AC7245D81E3B5C48009B1953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7245B01E3B5C48009B1953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7245C41E3B5C48009B1953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7245CF1E3B5C48009B1953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7245AA1E3B5C48009B1953 = {
+			isa = PBXGroup;
+			children = (
+				AC7245B51E3B5C48009B1953 /* HandsOfHashio */,
+				AC7245CA1E3B5C48009B1953 /* HandsOfHashioTests */,
+				AC7245D51E3B5C48009B1953 /* HandsOfHashioUITests */,
+				AC7245B41E3B5C48009B1953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7245B41E3B5C48009B1953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7245B31E3B5C48009B1953 /* HandsOfHashio.app */,
+				AC7245C71E3B5C48009B1953 /* HandsOfHashioTests.xctest */,
+				AC7245D21E3B5C48009B1953 /* HandsOfHashioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7245B51E3B5C48009B1953 /* HandsOfHashio */ = {
+			isa = PBXGroup;
+			children = (
+				AC7245B61E3B5C48009B1953 /* AppDelegate.swift */,
+				AC7245B81E3B5C48009B1953 /* ViewController.swift */,
+				AC7245BA1E3B5C48009B1953 /* Main.storyboard */,
+				AC7245BD1E3B5C48009B1953 /* Assets.xcassets */,
+				AC7245BF1E3B5C48009B1953 /* LaunchScreen.storyboard */,
+				AC7245C21E3B5C48009B1953 /* Info.plist */,
+			);
+			path = HandsOfHashio;
+			sourceTree = "<group>";
+		};
+		AC7245CA1E3B5C48009B1953 /* HandsOfHashioTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7245CB1E3B5C48009B1953 /* HandsOfHashioTests.swift */,
+				AC7245CD1E3B5C48009B1953 /* Info.plist */,
+			);
+			path = HandsOfHashioTests;
+			sourceTree = "<group>";
+		};
+		AC7245D51E3B5C48009B1953 /* HandsOfHashioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7245D61E3B5C48009B1953 /* HandsOfHashioUITests.swift */,
+				AC7245D81E3B5C48009B1953 /* Info.plist */,
+			);
+			path = HandsOfHashioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7245B21E3B5C48009B1953 /* HandsOfHashio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7245DB1E3B5C48009B1953 /* Build configuration list for PBXNativeTarget "HandsOfHashio" */;
+			buildPhases = (
+				AC7245AF1E3B5C48009B1953 /* Sources */,
+				AC7245B01E3B5C48009B1953 /* Frameworks */,
+				AC7245B11E3B5C48009B1953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandsOfHashio;
+			productName = HandsOfHashio;
+			productReference = AC7245B31E3B5C48009B1953 /* HandsOfHashio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC7245C61E3B5C48009B1953 /* HandsOfHashioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7245DE1E3B5C48009B1953 /* Build configuration list for PBXNativeTarget "HandsOfHashioTests" */;
+			buildPhases = (
+				AC7245C31E3B5C48009B1953 /* Sources */,
+				AC7245C41E3B5C48009B1953 /* Frameworks */,
+				AC7245C51E3B5C48009B1953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7245C91E3B5C48009B1953 /* PBXTargetDependency */,
+			);
+			name = HandsOfHashioTests;
+			productName = HandsOfHashioTests;
+			productReference = AC7245C71E3B5C48009B1953 /* HandsOfHashioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC7245D11E3B5C48009B1953 /* HandsOfHashioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7245E11E3B5C48009B1953 /* Build configuration list for PBXNativeTarget "HandsOfHashioUITests" */;
+			buildPhases = (
+				AC7245CE1E3B5C48009B1953 /* Sources */,
+				AC7245CF1E3B5C48009B1953 /* Frameworks */,
+				AC7245D01E3B5C48009B1953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7245D41E3B5C48009B1953 /* PBXTargetDependency */,
+			);
+			name = HandsOfHashioUITests;
+			productName = HandsOfHashioUITests;
+			productReference = AC7245D21E3B5C48009B1953 /* HandsOfHashioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7245AB1E3B5C48009B1953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = heiwa;
+				TargetAttributes = {
+					AC7245B21E3B5C48009B1953 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					AC7245C61E3B5C48009B1953 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC7245B21E3B5C48009B1953;
+					};
+					AC7245D11E3B5C48009B1953 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC7245B21E3B5C48009B1953;
+					};
+				};
+			};
+			buildConfigurationList = AC7245AE1E3B5C48009B1953 /* Build configuration list for PBXProject "HandsOfHashio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7245AA1E3B5C48009B1953;
+			productRefGroup = AC7245B41E3B5C48009B1953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7245B21E3B5C48009B1953 /* HandsOfHashio */,
+				AC7245C61E3B5C48009B1953 /* HandsOfHashioTests */,
+				AC7245D11E3B5C48009B1953 /* HandsOfHashioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7245B11E3B5C48009B1953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7245C11E3B5C48009B1953 /* LaunchScreen.storyboard in Resources */,
+				AC7245BE1E3B5C48009B1953 /* Assets.xcassets in Resources */,
+				AC7245BC1E3B5C48009B1953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7245C51E3B5C48009B1953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7245D01E3B5C48009B1953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7245AF1E3B5C48009B1953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7245B91E3B5C48009B1953 /* ViewController.swift in Sources */,
+				AC7245B71E3B5C48009B1953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7245C31E3B5C48009B1953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7245CC1E3B5C48009B1953 /* HandsOfHashioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7245CE1E3B5C48009B1953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7245D71E3B5C48009B1953 /* HandsOfHashioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC7245C91E3B5C48009B1953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7245B21E3B5C48009B1953 /* HandsOfHashio */;
+			targetProxy = AC7245C81E3B5C48009B1953 /* PBXContainerItemProxy */;
+		};
+		AC7245D41E3B5C48009B1953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7245B21E3B5C48009B1953 /* HandsOfHashio */;
+			targetProxy = AC7245D31E3B5C48009B1953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC7245BA1E3B5C48009B1953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7245BB1E3B5C48009B1953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7245BF1E3B5C48009B1953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7245C01E3B5C48009B1953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC7245D91E3B5C48009B1953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7245DA1E3B5C48009B1953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7245DC1E3B5C48009B1953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandsOfHashio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.HandsOfHashio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC7245DD1E3B5C48009B1953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandsOfHashio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.HandsOfHashio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC7245DF1E3B5C48009B1953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HandsOfHashioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.HandsOfHashioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandsOfHashio.app/HandsOfHashio";
+			};
+			name = Debug;
+		};
+		AC7245E01E3B5C48009B1953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HandsOfHashioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.HandsOfHashioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandsOfHashio.app/HandsOfHashio";
+			};
+			name = Release;
+		};
+		AC7245E21E3B5C48009B1953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HandsOfHashioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.HandsOfHashioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HandsOfHashio;
+			};
+			name = Debug;
+		};
+		AC7245E31E3B5C48009B1953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HandsOfHashioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.HandsOfHashioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HandsOfHashio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7245AE1E3B5C48009B1953 /* Build configuration list for PBXProject "HandsOfHashio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7245D91E3B5C48009B1953 /* Debug */,
+				AC7245DA1E3B5C48009B1953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7245DB1E3B5C48009B1953 /* Build configuration list for PBXNativeTarget "HandsOfHashio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7245DC1E3B5C48009B1953 /* Debug */,
+				AC7245DD1E3B5C48009B1953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC7245DE1E3B5C48009B1953 /* Build configuration list for PBXNativeTarget "HandsOfHashioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7245DF1E3B5C48009B1953 /* Debug */,
+				AC7245E01E3B5C48009B1953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC7245E11E3B5C48009B1953 /* Build configuration list for PBXNativeTarget "HandsOfHashioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7245E21E3B5C48009B1953 /* Debug */,
+				AC7245E31E3B5C48009B1953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7245AB1E3B5C48009B1953 /* Project object */;
+}
