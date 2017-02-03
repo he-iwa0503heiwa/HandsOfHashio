@@ -27,6 +27,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
         UIView.animate(withDuration: 1.0, delay: 0.0,
                        options: UIViewAnimationOptions.repeat, animations: { () -> Void in
                         self.label10.alpha = 0.0
